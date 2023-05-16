@@ -6,8 +6,9 @@
 <style type="text/tailwindcss">
 @tailwind base;@tailwind components;@tailwind utilities;@layer components{   
 
-.blem-navbar {@apply fixed top-0 left-0 right-0 bg-indigo-400 box-content h-max w-full z-48 rounded-2xl mb-5;}
+.blem-navbar {@apply fixed top-0 left-0 right-0 bg-indigo-400 box-content h-max w-full z-49 rounded-2xl mb-5;}
 .blem-navitem {@apply relative p-3 bg-indigo-600 box-content h-max w-max text-indigo-200 z-50 rounded-xl ml-2 my-2 inline-block float-left;}
+.blem-textbox {@apply relative left-15 text-indigo-200 inline mx-2 z-10 mb-2 p-3;}
 
 }</style></head>
 <body class="bg-indigo-200">
@@ -22,8 +23,8 @@
   <div class="navitem"><a href="./sponsor">Our Sponsor</a></div>  
 </div>
     
-    <div class="relative top-0 left-0 right-0 bg-indigo-400 box-content h-max w-max z-10 rounded-2xl mb-5">Preservation of Native Bees MN</div>
-    <div class="relative top-0 left-0 right-0 bg-indigo-100 box-content h-max w-max z-10 rounded-2xl mb-5">Minnesota has a bee problem!</div>
+<div class="blem-textbox">Preservation of Native Bees MN</div>
+<div class="blem-textbox">Minnesota has a bee problem!</div>
     <p class="relative left-15 text-indigo-600 block mx-5 text-4xl z-10 mb-5">Minnesota has a bee problem!</p>
     <p class="relative left-15 text-indigo-200 inline mx-5 z-10 mb-5">[Indent]</p>
     <p class="relative text-indigo-600 inline z-10 mx-5 mb-5">
