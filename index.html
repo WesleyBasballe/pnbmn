@@ -13,9 +13,17 @@
       
       @layer components {
       
-        .blem-navbar {@apply fixed top-0 left-0 right-0 bg-indigo-400 box-content h-max w-full z-49 rounded-2xl mb-5;}
-        .blem-navitem {@apply relative p-3 bg-indigo-600 box-content h-max w-max text-indigo-200 z-50 rounded-xl ml-2 my-2 inline-block float-left;}
-        .blem-textbox {@apply relative left-15 text-indigo-200 inline mx-2 z-10 mb-2 p-3;}
+        .blem-navbar {
+          @apply fixed top-0 left-0 right-0 bg-indigo-400 box-content h-max w-full z-49 rounded-2xl mb-5;
+        }
+        
+        .blem-navitem {  
+          @apply relative p-3 bg-indigo-600 box-content h-max w-max text-indigo-200 z-50 rounded-xl ml-2 my-2 inline-block float-left;
+        }
+
+        .blem-textbox {
+          @apply relative left-15 text-indigo-200 inline mx-2 z-10 mb-2 p-3;
+        }
         
       }
       
