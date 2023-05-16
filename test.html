@@ -7,7 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Test</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./mystyle.css">
+    <style>@tailwind base;@tailwind components;@tailwind utilities;@layer components {
+
+.test {@apply bg-indigo-300 h-max w-max z-10 rounded-2xl;}
+
+    </style>}
     
   </head>
   
