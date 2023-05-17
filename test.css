@@ -1,5 +1,0 @@
-@tailwind base;@tailwind components;@tailwind utilities;@layer components {
-
-.test {@apply bg-indigo-300 h-max w-max z-10 rounded-2xl;}
-
-}
