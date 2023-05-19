@@ -1,1 +1,1 @@
-Website made for a school project where we create a "nonprofit" for a specific United Nations Sustainable Development Goal that had also been narrowed. My group chose Preservation of Native Bees MN as our "nonprofit" name, so we will research preserving native bee populations in Minnesota.
+Website made for a school project where we create a nonprofit for a specific United Nations Sustainable Development Goal that had also been narrowed. My group chose Preservation of Native Bees MN as our nonprofit name, so we will research preserving native bee populations in Minnesota.
